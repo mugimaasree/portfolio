@@ -15,11 +15,7 @@
 .about .about-content .about-text h3 span{
     color: var(--skin-color);
 }
-.about .about-content .about-text p{
-    font-size: 16px;
-    line-height: 25px;
-    color: var(--text-black-700);
-}
+
 .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;

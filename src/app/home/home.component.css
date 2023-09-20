@@ -1,0 +1,124 @@
+.section{
+    background:var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    padding: 0 90px;
+    opacity: 1;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+    align-items: center;
+}
+.home .home-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+}
+h3.hello span{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+h3.my-profession{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.typing{
+    color: var(--skin-color);
+}
+.home-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+.home .home-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+.home-img::after{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 80px;
+    bottom: -50px;
+}
+.home-img::before{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: 100px;
+    top: -50px;
+}
+.home .home-img img{
+    margin: auto;
+    border-radius: 5px;
+    height: 400px;
+    width: 350px;
+} 
+.padd-15{
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+@media (max-width:991px){
+    
+    .home .home-info{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        position: relative;
+    }
+    .home .home-img{
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        background:var(--bg-black-900);
+        min-height: 100vh;
+        display: block;
+        padding: 0 ;
+        opacity: 1;
+    }
+    .home-img::after{
+        visibility: hidden;
+    }
+    .home-img::before{
+        visibility: hidden;
+    }
+}
+@media (max-width:1262px){
+    .home-img::after{
+        visibility: hidden;
+    }
+    .home-img::before{
+        visibility: hidden;
+    }
+
+}

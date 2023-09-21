@@ -87,7 +87,7 @@ h3.my-profession{
     .home .home-info{
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: 90%;
         position: relative;
     }
     .home .home-img{

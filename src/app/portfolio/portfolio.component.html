@@ -11,8 +11,44 @@
         </div>
       </div>
       <div class="row" id="add-item">
+        <h1>ANGULAR</h1>
         <ul class="product-list">
           <li *ngFor="let product of productList" class="product-item">
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <a [href]="product.webpageUrl">  <!-- target="_blank" -->
+                    <img [src]="'assets/images/portfolio/' + product.image" alt="">
+                  </a>
+                </div>
+                <p style="text-align: center; font-weight: 600;">{{ product.title }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="row" id="add-item">
+        <h1>JAVA SCRIPT</h1>
+
+        <ul class="product-list">
+          <li *ngFor="let product of productList1" class="product-item">
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <a [href]="product.webpageUrl">  <!-- target="_blank" -->
+                    <img [src]="'assets/images/portfolio/' + product.image" alt="">
+                  </a>
+                </div>
+                <p style="text-align: center; font-weight: 600;">{{ product.title }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="row" id="add-item">
+        <h1>HTML&CSS</h1>
+        <ul class="product-list">
+          <li *ngFor="let product of productList2" class="product-item">
             <div class="portfolio-item padd-15">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">

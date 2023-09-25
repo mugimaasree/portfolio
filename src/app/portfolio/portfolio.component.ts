@@ -14,11 +14,8 @@ export class PortfolioComponent implements OnInit {
         new Product('https://mugimaasree.github.io/weatherApp/weather','pic.png','weatherApp'),
         new Product('https://mugimaasree.github.io/currency/currency','pic2.png','CurrencyConverter'),
         new Product('https://mugimaasree.github.io/TOdoList/','pic6.png','ToDoList'),
-        new Product('https://mugimaasree.github.io/list/','pic7.png','ShowList'),
         new Product('https://mugimaasree.github.io/coordinates/input','pic5.png','coodinate'),
         new Product('https://mugimaasree.github.io/imageGallery/','pic8.png','Gallery'),
-        new Product('https://mugimaasree.github.io/Dropdown/','pic9.png','DropDown'),
-        new Product('https://mugimaasree.github.io/ngModel/','pic10.png','ngModel(sample)'),
       ];
 
       productList1:Product[]=[
@@ -38,9 +35,6 @@ export class PortfolioComponent implements OnInit {
 
       productList2:Product[]=[
         new Product('https://incubationwork.github.io/mugimaasree/flickr/flickr1.html','pic14.png','Flickr Page'),
-        new Product('https://incubationwork.github.io/mugimaasree/css-flex/flex.html','pic12.png','Flex Layout'),
-        new Product('https://incubationwork.github.io/mugimaasree/css-grid/Grid.html','pic13.png','Grid Layout'),
-        new Product('https://incubationwork.github.io/mugimaasree/html/all-html/alltag.html','pic15.png','HtmlTags'),
       ];
   
 
